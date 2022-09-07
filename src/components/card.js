@@ -48,9 +48,6 @@ export default function Cards(props) {
                              {services}
                         </Typography>
 
-
-
-
                     </CardContent>
                 </CardActionArea>
 

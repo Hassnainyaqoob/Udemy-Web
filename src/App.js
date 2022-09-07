@@ -16,29 +16,6 @@ import AllInclusiveIcon from '@mui/icons-material/AllInclusive';
 function App() {
 
 
-  //   <div className="row">
-  //   <div className="col-4">
-  //     <h1 id="min" className="zeroo">0</h1>
-  //   </div>
-
-  //   <div className="col-4">
-  //     <h1 id="sec" className=" zeroo">0</h1>
-  //   </div>
-
-  //   <div className="col-4">
-  //     <h1 id="msec" className=" zeroo">0</h1>
-  //   </div>
-  // </div>
-
-
-
-
-  // <button className="btn btn-outline-success ml-4">Start</button>
-  // <button className="btn btn-outline-danger ml-4" >Stop</button>
-  // <button className="btn btn-outline-warning ml-4" >Reset</button>
-
-
-
   const hotelRooms = [
     {
       img: 'https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png',
@@ -263,7 +240,7 @@ function App() {
       </div>
 
 
-      <div className='row' style={{backgroundColor:"black"}}>
+      <div className='row' style={{backgroundColor:"black",marginTop:"48px"}}>
         <div className='col-2 ' style={{marginRight:"30px"}}>
           <p style={{color:"white",marginTop:"30px"}}>Udemy Business</p>
           <p style={{color:"white" ,marginLeft:"5px"}}>Teach On Udemy</p>
