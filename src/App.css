@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+#input-first {
+  max-width: 525px;
+  margin-right: 20px;
+  border-color: black;
+  border-radius: 33px;
+  height: 47px;
+  padding-left: 50px;
+  margin-top: 13px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#icon {
+  position: absolute;
+  top: 23px;
+  right: 15px;
+  left: 241px;
+  bottom: 20px;
+  font-size: 29px;
+  color: lightgray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#shoping-logo {
+  margin-top: 22px;
+  font-size: 27px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#country-logo {
+  margin-top: 22px;
+  border-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+#counstry-box {
+  position: absolute;
+  left: 1214px;
+  right: 10px;
+  bottom: 8px;
+  top: 5px;
+  font-size: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#shop-box {
+  position: absolute;
+  left: 889px;
+  right: 10px;
+  bottom: 8px;
+  top: 5px;
+  font-size: 60px;
+}
+
+#star-logo {
+  color: black;
+  background-color: lightgray;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 35px;
+  margin-right: "10px";
+
+}
+
+#explore-button{
+  position: relative;
+  top: 30px;
+  bottom: 80px;
+  left: 100px;
+  right: 30px;
 }
